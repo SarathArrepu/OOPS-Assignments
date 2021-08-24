@@ -9,11 +9,15 @@ public class ZooSimulation {
     public static void main(String args[]) {
 
     Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
+    System.out.println(greeting.toUpperCase());
     System.out.print("Enter Animal name- ");  
     String str= sc.nextLine();   
-    System.out.println(greeting.toUpperCase());
+    //String[] animals1 = {"tiger"};
+    //String c = "tiger";
+    //if (str == animals1[0]);
+    //System.out.println(c);
     System.out.println("The animal is = " +str);  
-    
+      
       Tiger tommy = new Tiger();
       tommy.speak();
       tommy.move();
