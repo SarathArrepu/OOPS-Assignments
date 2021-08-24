@@ -11,10 +11,13 @@ public class ZooSimulation {
     Scanner sc= new Scanner(System.in);    //System.in is a standard input stream  
     System.out.print("Enter Animal name- ");  
     String str= sc.nextLine();   
-    //String[] animals1 = {"tiger"};
-    //String c = "tiger";
-    //if (str == animals1[0]);
-    //System.out.println(c);
+    String[] animals1 = {"tiger"};
+    String c = "tiger";
+    if (str == animals1[0]){
+    System.out.println(c);}
+     else{
+      System.out.println("I am not a tiger");
+     }
     System.out.println("The animal is = " +str);  
     System.out.println(greeting.toUpperCase());
       
