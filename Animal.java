@@ -15,4 +15,8 @@ public class Animal {
         System.out.println("Generic animal movement");
     }
     
+    public void eat() {
+        System.out.println("Generic animal eats");
+    }
+    
 }
