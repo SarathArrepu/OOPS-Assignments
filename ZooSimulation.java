@@ -18,9 +18,8 @@ public class ZooSimulation {
      else{
       System.out.println("I am not a tiger");
      }
-    System.out.println("The animal is = " +str);  
     System.out.println(greeting.toUpperCase());
-      
+    System.out.println("The animal is = " +str);  
       Tiger tommy = new Tiger();
       tommy.speak();
       tommy.move();
