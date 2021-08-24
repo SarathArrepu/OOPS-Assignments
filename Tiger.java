@@ -10,4 +10,9 @@ public class Tiger extends Animal {
         System.out.println("I hunt");
     }
     
+    @Override
+    public void eat() {
+        System.out.println("I eat meat");
+    }
+    
 }
