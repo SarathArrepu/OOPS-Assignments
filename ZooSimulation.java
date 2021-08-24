@@ -21,6 +21,6 @@ public class ZooSimulation {
       Tiger tommy = new Tiger();
       tommy.speak();
       tommy.move();
-      
+      tommy.eat();
     }
 }
