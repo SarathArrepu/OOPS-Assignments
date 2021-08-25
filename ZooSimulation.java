@@ -22,5 +22,8 @@ public class ZooSimulation {
       tommy.speak();
       tommy.move();
       tommy.eat();
+      tommy.type();
+      tommy.color();
+     
     }
 }
