@@ -15,4 +15,12 @@ public class Tiger extends Animal {
         System.out.println("I eat meat");
     }
     
+     public void type() {
+        System.out.println("I am a wild animal");
+    }
+    
+     public void color() {
+        System.out.println("I am in yellow color ");
+    }
+    
 }
